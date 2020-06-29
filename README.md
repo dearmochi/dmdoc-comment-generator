@@ -2,6 +2,10 @@
 
 **dmdoc-comment-generator** is an extension for Visual Studio Code that allows to generate comments that are readable by [dmdoc](https://github.com/SpaceManiac/SpacemanDMM/tree/master/src/dmdoc) for procs.
 
+## Usage
+
+Click on a line containing a proc definition and click the light bulb that appears, or `Ctrl+Shift+P` and select **Generate proc documentation**
+
 ## Building
 
 1. Install [Node and NPM][node].
