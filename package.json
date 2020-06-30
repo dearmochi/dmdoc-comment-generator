@@ -4,7 +4,7 @@
 	"description": "Generates comments for dmdoc from procs, classes, variables and defines",
 	"publisher": "dearmochi",
 	"repository": "https://github.com/dearmochi/dmdoc-comment-generator",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
