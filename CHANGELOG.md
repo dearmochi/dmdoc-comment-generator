@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "dmdoc-comment-generator" extension will be documented in this file.
+## [0.0.2]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Command now tries to use any comment behind the proc as the short description
+- Remove tests
+- Fix not being able to generate docs for procs without arguments
 
-## [Unreleased]
+## [0.0.1]
 
 - Initial release
