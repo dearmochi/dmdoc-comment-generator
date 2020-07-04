@@ -4,7 +4,7 @@ import * as vscode from 'vscode';
 import * as commaSeparatedTokens from 'comma-separated-tokens';
 import CommentProcCommand from './command';
 
-const regexProc: RegExp = /(\w+)\/proc\/(\w+)\((.+)?\)/;
+const regexProc: RegExp = /(\w+)?\/proc\/(\w+)\((.+)?\)/;
 
 export default class DMDocCommentGeneratorActionProvider implements vscode.CodeActionProvider {
     private commentProcCommand: CommentProcCommand = new CommentProcCommand();
